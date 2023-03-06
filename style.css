@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #fffff0;
+}
+
+.nav-links li, a, i {
+    font-family: "Lobster";
+    font-weight: 400;
+    font-size: 20px;
+    text-decoration: none;
+    color: #edf0f1;
+    background-color: #e19e9e;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    background-color: #e19e9e;
+
+}
+
+.nav-links {
+    list-style: none;
+    background-color: #e19e9e;
+}
+
+.nav-links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav-links li a:hover {
+    color: #bf8383;
+}
+
+#main-title {
+    font-family: "Lobster";
+    font-weight: 400;
+    font-size: 40px;
+    color: #bf8383;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#image-flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 40px;
+    padding: 0px 40px;
+}
+
+#image-flex-container img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+#detail-flex-box {
+    display: flex;
+    flex-direction: row;
+    background-color: #b9d0be;
+    margin: 80px 100px 10px;
+    height: 600px;
+    border-radius: 25px;
+}
+
+#left-container {
+    display: flex;
+    flex-direction: column;
+    width: 598px;
+    background: none;
+    font-family: "Lobster";
+    font-weight: 400;
+    padding: 20px;
+}
+
+#left-container img {
+    width: 450px;
+    height: 450px;
+    align-self: center;
+    border-radius: 25px;
+}
+
+#left-container h2 {
+    background: none;
+    font-size: 60px;
+    color: #516e4d;
+    text-align: center;
+}
+
+#left-container p {
+    background: none;
+    font-size: 40px;
+    color: #516e4d;
+    text-align: center;
+}
+
+#vertical-line {
+    border-left: 1px solid #edf0f1;
+    height: 580px;
+    align-self: center;
+    margin-right: 95px;
+}
+
+#right-container {
+    display: flex;
+    flex-direction: column;
+    width: 896px;
+    background: none;
+    margin-top: 20px;
+}
+
+#right-container h3 {
+    background: none;
+    font-family: "Lobster";
+    font-weight: 400;
+    font-size: 45px;
+    margin-bottom: 10px;
+    color: #585958;
+}
+
+#right-container p {
+    background: none;
+    font-family: "Lobster";
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #7c7d7c;
+}
+
+#right-container ul {
+    background: none;
+    font-family: "Lobster";
+    font-weight: 400;
+    font-size: 24px;
+    color: #585958;
+}
+
+#right-container li {
+    background: none;
+    font-family: "Lobster";
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 10px;
+    color: #7c7d7c;
+}
+
+#buttons {
+    display: flex;
+    flex-direction: row;
+    background: none;
+    margin-top: 40px;
+}
+
+#like-button {
+    background: none;
+    margin-top: 30px;
+    border: none;
+}
+
+#dislike-button {
+    background: none;
+    margin-top: 30px;
+    border: none;
+    margin-left: 40px;
+}
+
+#thumbs-up {
+    border-radius: 50%;
+    background: none;
+    background-color: green;
+    height: 20px;
+    width: 20px;
+}
+
+#thumbs-down {
+    border-radius: 50%;
+    background: none;
+    background-color: tomato;
+    height: 20px;
+    width: 20px;
+}
+
+#thumbs-up::before {
+    vertical-align: sub;
+}
+
+#thumbs-down::before {
+    vertical-align: -webkit-baseline-middle;
+}
+
+#comment-box {
+    display: flex;
+    flex-direction: row;
+    background: none;
+    background-color: #b9d0be;
+    margin: 10px 100px;
+    height: 70px;
+    border-radius: 30px;
+}
+
+#comment-box input {
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    padding: 0 20px;
+    border: 1px solid #e19e9e;
+}
+
+#comment-box textarea {
+    width: 400px;
+    height: 30px;
+    border-radius: 20px;
+    padding: 0 20px;
+    border: 1px solid #e19e9e;
+    vertical-align: middle;
+}
+
+#comment-form {
+    background: none;
+    margin-top: 19px;
+    margin-left: 416px;
+}
+
+#post-button {
+    height: 30px;
+    width: 70px;
+    border-radius: 20px;
+    border: 1px solid #e19e9e;
+    background-color: #e19e9e;
+    color: #fffff0;
+    font-family: "Lobster";
+    font-weight: 400;
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+
+
+
+
+

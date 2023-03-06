@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://kit.fontawesome.com/16534cca9e.js" crossorigin="anonymous"></script>
+    <!-- <script defer type="text/javascript" src="./src/index.js"></script> -->
+    <title>Cocktail Rater</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Cocktails</a></li>
+                <li><a href="#">Mocktails</a></li>
+                <li><i class="fa-solid fa-martini-glass-citrus fa-2xl"></i></li>
+                <li><a href="#">Top 10 Recipes</a></li>
+                <li><a href="#">Recipe Creator</a></li>
+                <li><a href="#">Help</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="main-title">
+        <h1>Cocktail Rater</h1>
+    </div>
+
+    <div id="image-flex-container">
+        <img src="assets/IMG_9601.jpeg">
+        <img src="assets/IMG_9600.jpeg">
+        <img src="assets/IMG_9599.jpeg">
+        <img src="assets/IMG_9597.jpeg">
+        <img src="assets/IMG_9621.jpeg">
+        <img src="assets/IMG_9598.jpeg">
+    </div>
+
+    <div id="detail-flex-box">
+        <div id="left-container">
+            <img src="assets/IMG_9601.jpeg">
+            <h2 id="cocktail-title">Name</h2>
+            <p id="cocktail-type">Type</p>
+        </div>
+        
+        <div id="vertical-line"></div>
+
+        <div id="right-container">
+            <h3 id="cocktail-bio">BIO</h3>
+                <p id="cocktail-bio-body">Test Bio</p>
+            <ul id="cocktail-ingredients"> INGREDIENTS
+                <li>Test1</li>
+                <li>Test2</li>
+                <li>Test3</li>
+                <li>Test4</li>
+                <li>Test5</li>
+            </ul>
+
+            <div id="buttons">
+                <button id="like-button"><i id ="thumbs-up" class="fa-regular fa-thumbs-up fa-2xl"></i>0</button>
+                <button id="dislike-button"><i id ="thumbs-down" class="fa-regular fa-thumbs-down fa-2xl"></i>0</button>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="comment-box">
+        <form action="#" id="comment-form">
+            <input type="text" id= "comment-username"name="name" placeholder="Username">
+            <textarea name="comment" id="comment-text" placeholder="Write a review..."></textarea>
+            <button type="submit" id="post-button">Post!</button>
+        </form>
+    </div>
+    
+</body>
+</html>
