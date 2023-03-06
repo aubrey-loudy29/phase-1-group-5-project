@@ -4,85 +4,85 @@
         "id": 1,
         "name": "Honeydew Margarita",
         "type": "Cocktail",
-        "image": "./assets/images/IMG_9601.jpeg",
+        "image": "./assets/IMG_9601.jpeg",
         "bio": "A light and refreshing cocktail, with a perfect balance of honeydew and lime!",
-        "ingredients": {
-          "ingredient1": "2 ounces honeydew juice",
-          "ingredient2": "1 ounce tequila of choice",
-          "ingredien3t": "1 ounce lime juice",
-          "ingredient4": "1/2 ounce simple syrup",
-          "ingredient5": "1/2 ounce Grand Marnier"
-        }
+        "ingredients": [
+          "2 ounces honeydew juice", 
+          "1 ounce tequila of choice", 
+          "1 ounce lime juice", 
+          "1/2 ounce simple syrup", 
+          "1/2 ounce Grand Marnier"
+        ]
       },
       {
         "id": 2,
         "name": "Italian Paloma",
         "type": "Cocktail",
-        "image": "./assets/images/IMG_9600.jpeg",
+        "image": "./assets/IMG_9600.jpeg",
         "bio": "A classic paloma drink that comes with some zing!",
-        "ingredients": {
-          "ingredient1": "1 ounce tequila of choice",
-          "ingredient2": "1/2 ounce pink grapefruit juice",
-          "ingredien3t": "2 ounces italian orange soda",
-          "ingredient4": "1/2 ounce simple syrup",
-          "ingredient5": "1 ounce each of lemon and lime juice"
-        }
+        "ingredients": [
+          "1 ounce tequila of choice", 
+          "1/2 ounce pink grapefruit juice", 
+          "2 ounces italian orange soda", 
+          "1/2 ounce simple syrup", 
+          "1 ounce each of lemon and lime juice"
+        ]
       },
       {
         "id": 3,
         "name": "Rosemary Flora",
         "type": "Cocktail",
-        "image": "./assets/images/IMG_9599.jpeg",
+        "image": "./assets/IMG_9599.jpeg",
         "bio": "An easy daytime drink that looks just as good as it tastes!",
-        "ingredients": {
-          "ingredient1": "4 ounces grapefruit juice",
-          "ingredient2": "1 ounce rosemary syrup",
-          "ingredien3t": "2 ounces Tamworth Garden Flora gin",
-          "ingredient4": "3 ounces club soda",
-          "ingredient5": "Rosemary leaves & a slice of grapefruit to garnish"
-        }
+        "ingredients": [
+          "4 ounces grapefruit juice",
+          "1 ounce rosemary syrup",
+          "2 ounces Tamworth Garden Flora gin",
+          "3 ounces club soda",
+          "Rosemary leaves & a slice of grapefruit to garnish"
+        ]
       },
       {
         "id": 4,
         "name": "Apple Juice with a Kick",
         "type": "Mocktail",
-        "image": "./assets/images/IMG_9597.jpeg",
+        "image": "./assets/IMG_9597.jpeg",
         "bio": "Feel healthy with this spicy mocktail, paired perfectly with a collection of veggies!",
-        "ingredients": {
-          "ingredient1": "6 green apples",
-          "ingredient2": "2 cucumbers",
-          "ingredien3t": "2 celery sticks",
-          "ingredient4": "1 tbsp ginger",
-          "ingredient5": "1/2 jalepeno, sliced with seeds removed"
-        }
+        "ingredients": [
+          "6 green apples", 
+          "2 cucumbers", 
+          "2 celery sticks", 
+          "1 tbsp ginger", 
+          "1/2 jalepeno, sliced with seeds removed"
+        ]
       },
       {
         "id": 5,
         "name": "Sparkling Greyhound Mocktail",
         "type": "Mocktail",
-        "image": "./assets/images/IMG_9621.jpeg",
+        "image": "./assets/IMG_9621.jpeg",
         "bio": "A naturally sweetened beverage, perfectly paired for any occasion!",
-        "ingredients": {
-          "ingredient1": "3 ounces grapefruit juice",
-          "ingredient2": "3.5 ounces club soda",
-          "ingredien3t": "1 tbsp honey syrup",
-          "ingredient4": "Fresh thyme to infuse and garnish",
-          "ingredient5": "Grapefruit juice & turbinado sugar for the rim"
-        }
+        "ingredients": [
+          "3 ounces grapefruit juice",
+          "3.5 ounces club soda",
+          "1 tbsp honey syrup",
+          "Fresh thyme to infuse and garnish",
+          "Grapefruit juice & turbinado sugar for the rim"
+        ]
       },
       {
         "id": 6,
         "name": "Hawaiian Strawberry Prosecco",
         "type": "Mocktail",
-        "image": "./assets/images/IMG_9598.jpeg",
+        "image": "./assets/IMG_9598.jpeg",
         "bio": "A refreshing summertime drink that will keep you cool by the pool!",
-        "ingredients": {
-          "ingredient1": "3 strawberries, diced",
-          "ingredient2": "1 ounce cream of coconut",
-          "ingredien3t": "1 tsp honey",
-          "ingredient4": "1/2 lemon, squeezed",
-          "ingredient5": "Alcohol-free prosecco"
-        }
+        "ingredients": [
+          "3 strawberries, diced",
+          "1 ounce cream of coconut",
+          "1 tsp honey",
+          "1/2 lemon, squeezed",
+          "Alcohol-free prosecco"
+        ]
       }
     ]
   }

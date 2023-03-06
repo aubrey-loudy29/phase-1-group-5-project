@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css">
     <script src="https://kit.fontawesome.com/16534cca9e.js" crossorigin="anonymous"></script>
-    <!-- <script defer type="text/javascript" src="./src/index.js"></script> -->
+    <script defer type="text/javascript" src="./index.js"></script>
     <title>Cocktail Rater</title>
 </head>
 <body>
@@ -29,17 +29,17 @@
     </div>
 
     <div id="image-flex-container">
-        <img src="assets/IMG_9601.jpeg">
+        <!-- <img src="assets/IMG_9601.jpeg">
         <img src="assets/IMG_9600.jpeg">
         <img src="assets/IMG_9599.jpeg">
         <img src="assets/IMG_9597.jpeg">
         <img src="assets/IMG_9621.jpeg">
-        <img src="assets/IMG_9598.jpeg">
+        <img src="assets/IMG_9598.jpeg"> -->
     </div>
 
     <div id="detail-flex-box">
         <div id="left-container">
-            <img src="assets/IMG_9601.jpeg">
+            <img id= "left-drink-image" src="">
             <h2 id="cocktail-title">Name</h2>
             <p id="cocktail-type">Type</p>
         </div>
@@ -48,13 +48,9 @@
 
         <div id="right-container">
             <h3 id="cocktail-bio">BIO</h3>
-                <p id="cocktail-bio-body">Test Bio</p>
+                <p id="cocktail-bio-body"></p>
             <ul id="cocktail-ingredients"> INGREDIENTS
-                <li>Test1</li>
-                <li>Test2</li>
-                <li>Test3</li>
-                <li>Test4</li>
-                <li>Test5</li>
+                <li id = "ingredient-list-items"></li>
             </ul>
 
             <div id="buttons">
