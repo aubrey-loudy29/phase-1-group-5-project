@@ -243,7 +243,19 @@ header {
     vertical-align: middle;
 }
 
-
+#comment-container {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 100px;
+    height: 200px;
+    border-radius: 30px;
+    font-family: "Lobster";
+    font-weight: 400;
+    font-size: 45px;
+    background-color: #b9d0be;
+    color: #585958;
+    padding: 10px 20px;
+}
 
 
 
