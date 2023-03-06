@@ -1,0 +1,52 @@
+{
+    "drinks": [
+      {
+        "id": 1,
+        "name": "Honeydew Margarita",
+        "type": "Cocktail",
+        "image": "./assets/images/IMG_9601.jpeg",
+        "bio": "",
+        "ingredients": ""
+      },
+      {
+        "id": 2,
+        "name": "Italian Paloma",
+        "type": "Cocktail",
+        "image": "./assets/images/IMG_9600.jpeg",
+        "bio": "",
+        "ingredients": ""
+      },
+      {
+        "id": 3,
+        "name": "Rosemary Flora",
+        "type": "Cocktail",
+        "image": "./assets/images/IMG_9599.jpeg",
+        "bio": "",
+        "ingredients": ""
+      },
+      {
+        "id": 4,
+        "name": "Apple Juice with a Kick",
+        "type": "Mocktail",
+        "image": "./assets/images/IMG_9597.jpeg",
+        "bio": "",
+        "ingredients": ""
+      },
+      {
+        "id": 5,
+        "name": "Sparkling Greyhound Mocktail",
+        "type": "Mocktail",
+        "image": "./assets/images/IMG_9621.jpeg",
+        "bio": "",
+        "ingredients": ""
+      },
+      {
+        "id": 6,
+        "name": "Strawberry Prosecco",
+        "type": "Mocktail",
+        "image": "./assets/images/IMG_9598.jpeg",
+        "bio": "",
+        "ingredients": ""
+      }
+    ]
+  }
