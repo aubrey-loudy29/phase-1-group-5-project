@@ -7,6 +7,7 @@ function fetchDrinks() {
 }
 
 function renderDrinks(results) {
+    console.log(results)
 
     const drinkBar = document.getElementById("image-flex-container")
 
@@ -29,11 +30,19 @@ function renderDrinks(results) {
             const detailBio = document.getElementById("cocktail-bio-body")
             detailBio.innerText = drinks.bio
 
-            const detailIngr = document.getElementById("ingredient-list-items")
-            detailIngr.innerText = drinks.ingredients
+
+            // const ingredientsTitle = document.getElementById('ingredients-title')
+            // const cocktailIngredientList = document.createElement('ul')
+            // ingredientsTitle.appendChild(cocktailIngredientList)
+            
+            // const detailIngr = document.createElement("li")
+            // cocktailIngredientList.innerText = ""
+            // detailIngr.innerText = drinks.ingredients
+            
+            // cocktailIngredientList.appendChild(detailIngr)
+
 
             // const ingrList = document.getElementById("cocktail-ingredients")
-            // ingrList.innerText = ""
         })
         
         // drinkImage.addEventListener('mouseover', () => {
