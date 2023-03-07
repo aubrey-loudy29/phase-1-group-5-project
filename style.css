@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@300&display=swap');
 
 * {
     margin: 0;
@@ -78,7 +79,6 @@ header {
     flex-direction: column;
     width: 598px;
     background: none;
-    font-family: "Lobster";
     font-weight: 400;
     padding: 20px;
 }
@@ -91,6 +91,7 @@ header {
 }
 
 #left-container h2 {
+    font-family: "Lobster";
     background: none;
     font-size: 40px;
     color: #516e4d;
@@ -98,8 +99,9 @@ header {
 }
 
 #left-container p {
+    font-family: "Cormorant";
     background: none;
-    font-size: 25px;
+    font-size: 35px;
     color: #516e4d;
     text-align: center;
 }
@@ -130,7 +132,7 @@ header {
 
 #right-container p {
     background: none;
-    font-family: "Lobster";
+    font-family: "Cormorant";
     font-weight: 400;
     font-size: 26px;
     margin-bottom: 30px;
@@ -148,9 +150,9 @@ header {
 
 #right-container li {
     background: none;
-    font-family: "Lobster";
+    font-family: "Cormorant";
     font-weight: 400;
-    font-size: 18px;
+    font-size: 24px;
     margin-top: 10px;
     color: #7c7d7c;
 }
@@ -178,7 +180,7 @@ header {
 #thumbs-up {
     border-radius: 50%;
     background: none;
-    background-color: green;
+    background-color: rgb(46, 61, 46);
     height: 20px;
     width: 20px;
 }
@@ -186,7 +188,7 @@ header {
 #thumbs-down {
     border-radius: 50%;
     background: none;
-    background-color: tomato;
+    background-color: rgb(102, 47, 37);
     height: 20px;
     width: 20px;
 }
@@ -239,7 +241,7 @@ header {
     border: 1px solid #e19e9e;
     background-color: #e19e9e;
     color: #fffff0;
-    font-family: "Lobster";
+    font-family: "Cormorant";
     font-weight: 400;
     font-size: 20px;
     vertical-align: middle;
