@@ -32,6 +32,21 @@ function renderDrinks(results) {
 
             const detailComment = document.getElementById("comment-list")
             detailComment.innerText = drinks.comments
+
+            const ingredientsTitle = document.getElementById('ingredients-title')
+            const cocktailIngredientList = document.createElement('ul')
+            ingredientsTitle.appendChild(cocktailIngredientList)
+            // cocktailIngredientList.innerText = ""
+            
+            // detailIngr.innerText = drinks.ingredients
+            // cocktailIngredientList.innerText = ""
+            
+            for(let i = 0; i < drinks.ingredients.length; i++) {
+                
+                const detailIngr = document.createElement("li")
+                detailIngr.append(drinks.ingredients[i])
+                cocktailIngredientList.appendChild(detailIngr)
+            }
         })
         
         // drinkImage.addEventListener('mouseover', () => {
