@@ -12,7 +12,8 @@
           "1 ounce lime juice", 
           "1/2 ounce simple syrup", 
           "1/2 ounce Grand Marnier"
-        ]
+        ],
+        "comments": "So yummy!!"
       },
       {
         "id": 2,
@@ -26,7 +27,8 @@
           "2 ounces italian orange soda", 
           "1/2 ounce simple syrup", 
           "1 ounce each of lemon and lime juice"
-        ]
+        ],
+        "comments": "So good!!"
       },
       {
         "id": 3,
@@ -40,7 +42,8 @@
           "2 ounces Tamworth Garden Flora gin",
           "3 ounces club soda",
           "Rosemary leaves & a slice of grapefruit to garnish"
-        ]
+        ],
+        "comments": "So tasty!!"
       },
       {
         "id": 4,
@@ -54,7 +57,8 @@
           "2 celery sticks", 
           "1 tbsp ginger", 
           "1/2 jalepeno, sliced with seeds removed"
-        ]
+        ],
+        "comments": "So refreshing!!"
       },
       {
         "id": 5,
@@ -68,7 +72,8 @@
           "1 tbsp honey syrup",
           "Fresh thyme to infuse and garnish",
           "Grapefruit juice & turbinado sugar for the rim"
-        ]
+        ],
+        "comments": "So sweet!!"
       },
       {
         "id": 6,
@@ -82,7 +87,8 @@
           "1 tsp honey",
           "1/2 lemon, squeezed",
           "Alcohol-free prosecco"
-        ]
+        ],
+        "comments": "So summer-y!!"
       }
     ]
   }

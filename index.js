@@ -30,6 +30,15 @@ function renderDrinks(results) {
             const detailBio = document.getElementById("cocktail-bio-body")
             detailBio.innerText = drinks.bio
 
+            // const detailIngr = document.createElement('li')
+            // detailIngr.className.add('list-drink-ingredients')
+            // detailIngr.innerText = drinks.ingredients
+
+            // const ingredientList = document.getElementById('cocktail-ingredients')
+            // ingredientList.innerText = ""
+
+            // ingredientList.append(detailIngr)
+
 
             // const ingredientsTitle = document.getElementById('ingredients-title')
             // const cocktailIngredientList = document.createElement('ul')
@@ -43,6 +52,9 @@ function renderDrinks(results) {
 
 
             // const ingrList = document.getElementById("cocktail-ingredients")
+
+            const detailComment = document.getElementById("comment-list")
+            detailComment.innerText = drinks.comments
         })
         
         // drinkImage.addEventListener('mouseover', () => {

@@ -265,13 +265,13 @@ header {
     background-color: #b9d0be;
 }
 
-#comment-list li{
-    font-family: "Lobster";
+#comment-container ul{
+    font-family: "Cormorant";
     font-weight: 400;
     background-color: #b9d0be;
     padding: 10px 20px;
     margin-left: 40px;
-    font-size: 24px;
+    font-size: 30px;
 }
 
 #right-container h2 {
