@@ -7,7 +7,6 @@ function fetchDrinks() {
 }
 
 function renderDrinks(results) {
-    console.log(results)
 
     const drinkBar = document.getElementById("image-flex-container")
 
@@ -36,13 +35,8 @@ function renderDrinks(results) {
             const ingredientsTitle = document.getElementById('ingredients-title')
             const cocktailIngredientList = document.createElement('ul')
             ingredientsTitle.appendChild(cocktailIngredientList)
-            // cocktailIngredientList.innerText = ""
             
-            // detailIngr.innerText = drinks.ingredients
-            // cocktailIngredientList.innerText = ""
-            
-            for(let i = 0; i < drinks.ingredients.length; i++) {
-                
+            for(let i = 0; i < drinks.ingredients.length; i++) {  
                 const detailIngr = document.createElement("li")
                 detailIngr.append(drinks.ingredients[i])
                 cocktailIngredientList.appendChild(detailIngr)
