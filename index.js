@@ -30,29 +30,6 @@ function renderDrinks(results) {
             const detailBio = document.getElementById("cocktail-bio-body")
             detailBio.innerText = drinks.bio
 
-            // const detailIngr = document.createElement('li')
-            // detailIngr.className.add('list-drink-ingredients')
-            // detailIngr.innerText = drinks.ingredients
-
-            // const ingredientList = document.getElementById('cocktail-ingredients')
-            // ingredientList.innerText = ""
-
-            // ingredientList.append(detailIngr)
-
-
-            // const ingredientsTitle = document.getElementById('ingredients-title')
-            // const cocktailIngredientList = document.createElement('ul')
-            // ingredientsTitle.appendChild(cocktailIngredientList)
-            
-            // const detailIngr = document.createElement("li")
-            // cocktailIngredientList.innerText = ""
-            // detailIngr.innerText = drinks.ingredients
-            
-            // cocktailIngredientList.appendChild(detailIngr)
-
-
-            // const ingrList = document.getElementById("cocktail-ingredients")
-
             const detailComment = document.getElementById("comment-list")
             detailComment.innerText = drinks.comments
         })
@@ -63,6 +40,25 @@ function renderDrinks(results) {
 
     })
 }
+
+
+
+const likeBttn = document.getElementById("like-button")
+let count = 0
+likeBttn.addEventListener('click', () => {
+    count += 1;
+    const likeCount = document.getElementById("like-count")
+    likeCount.innerText = count
+})
+
+
+const dislikeBttn = document.getElementById("dislike-button")
+let number = 0
+dislikeBttn.addEventListener('click', () => {
+    number += 1;
+    const dislikeCount = document.getElementById("dislike-count")
+    dislikeCount.innerText = number
+})
 
 const form = document.getElementById('comment-form')
 

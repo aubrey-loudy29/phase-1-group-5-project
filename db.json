@@ -13,7 +13,7 @@
           "1/2 ounce simple syrup", 
           "1/2 ounce Grand Marnier"
         ],
-        "comments": "So yummy!!"
+        "comments": ""
       },
       {
         "id": 2,
@@ -28,7 +28,7 @@
           "1/2 ounce simple syrup", 
           "1 ounce each of lemon and lime juice"
         ],
-        "comments": "So good!!"
+        "comments": ""
       },
       {
         "id": 3,
@@ -43,7 +43,7 @@
           "3 ounces club soda",
           "Rosemary leaves & a slice of grapefruit to garnish"
         ],
-        "comments": "So tasty!!"
+        "comments": ""
       },
       {
         "id": 4,
@@ -58,7 +58,7 @@
           "1 tbsp ginger", 
           "1/2 jalepeno, sliced with seeds removed"
         ],
-        "comments": "So refreshing!!"
+        "comments": ""
       },
       {
         "id": 5,
@@ -73,7 +73,7 @@
           "Fresh thyme to infuse and garnish",
           "Grapefruit juice & turbinado sugar for the rim"
         ],
-        "comments": "So sweet!!"
+        "comments": ""
       },
       {
         "id": 6,
@@ -88,7 +88,7 @@
           "1/2 lemon, squeezed",
           "Alcohol-free prosecco"
         ],
-        "comments": "So summer-y!!"
+        "comments": ""
       }
     ]
   }
