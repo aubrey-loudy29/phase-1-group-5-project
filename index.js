@@ -32,9 +32,8 @@ function renderDrinks(results) {
             const detailComment = document.getElementById("comment-list")
             detailComment.innerText = drinks.comments
 
-            const ingredientsTitle = document.getElementById('ingredients-title')
-            const cocktailIngredientList = document.createElement('ul')
-            ingredientsTitle.appendChild(cocktailIngredientList)
+            const cocktailIngredientList = document.getElementById('ingredients-list')
+            cocktailIngredientList.innerHTML = ''
             
             for(let i = 0; i < drinks.ingredients.length; i++) {  
                 const detailIngr = document.createElement("li")

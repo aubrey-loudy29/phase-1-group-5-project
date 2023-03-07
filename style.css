@@ -161,8 +161,7 @@ header {
     display: flex;
     flex-direction: row;
     background: none;
-    /* margin-bottom: 5px; */
-    margin-left: 375px;
+    margin-top: 40px;
 }
 
 #like-button {
