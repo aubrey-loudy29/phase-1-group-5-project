@@ -7,7 +7,9 @@ function fetchDrinks() {
 }
 
 function renderDrinks(results) {
+
     const drinkBar = document.getElementById("image-flex-container")
+
     results.forEach((drinks) => {
         const drinkImage = document.createElement('img')
         drinkImage.src = drinks.image
@@ -30,9 +32,29 @@ function renderDrinks(results) {
             const detailIngr = document.getElementById("ingredient-list-items")
             detailIngr.innerText = drinks.ingredients
 
-            const ingrList = document.getElementById("cocktail-ingredients")
+            // const ingrList = document.getElementById("cocktail-ingredients")
             // ingrList.innerText = ""
-
         })
+        
+        // drinkImage.addEventListener('mouseover', () => {
+        //     drinkImage.style.boxShadow= "10px 20px 30px #b9d0be";
+        // })
+
     })
 }
+
+const form = document.getElementById('comment-form')
+
+form.addEventListener('submit', (e) => {
+    e.preventDefault();
+
+    const commentList = document.getElementById('comment-list')
+    const newComment = document.createElement('li')
+    let comment = document.getElementById('comment-text').value
+    newComment.innerText = comment
+    commentList.append(newComment)
+    
+
+    form.reset();
+
+})

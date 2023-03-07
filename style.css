@@ -61,6 +61,7 @@ header {
     border-radius: 50%;
     width: 200px;
     height: 200px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #detail-flex-box {
@@ -131,7 +132,7 @@ header {
     background: none;
     font-family: "Lobster";
     font-weight: 400;
-    font-size: 18px;
+    font-size: 26px;
     margin-bottom: 30px;
     color: #7c7d7c;
 }
@@ -140,8 +141,9 @@ header {
     background: none;
     font-family: "Lobster";
     font-weight: 400;
-    font-size: 24px;
+    font-size: 30px;
     color: #585958;
+    list-style-position: inside;
 }
 
 #right-container li {
@@ -247,7 +249,7 @@ header {
     display: flex;
     flex-direction: column;
     margin: 10px 100px;
-    height: 200px;
+    height: 400px;
     border-radius: 30px;
     font-family: "Lobster";
     font-weight: 400;
@@ -255,6 +257,19 @@ header {
     background-color: #b9d0be;
     color: #585958;
     padding: 10px 20px;
+}
+
+#comment-list {
+    background-color: #b9d0be;
+}
+
+#comment-list li{
+    font-family: "Lobster";
+    font-weight: 400;
+    background-color: #b9d0be;
+    padding: 10px 20px;
+    margin-left: 40px;
+    font-size: 24px;
 }
 
 
