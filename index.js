@@ -49,8 +49,6 @@ function renderDrinks(results) {
     })
 }
 
-
-
 const likeBttn = document.getElementById("like-button")
 let count = 0
 likeBttn.addEventListener('click', () => {
