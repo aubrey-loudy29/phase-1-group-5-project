@@ -48,27 +48,30 @@ function renderDrinks(results) {
                 detailIngr.append(drinks.ingredients[i])
                 cocktailIngredientList.appendChild(detailIngr)
             }
-        })
 
+            const likeCount = document.getElementById("like-count")
+            let count = 0
+            likeCount.innerText = `${count}`
+
+            const likeBttn = document.getElementById("like-button")
+            likeBttn.addEventListener('click', () => {
+                count += 1;
+                likeCount.innerText = count
+            })
+            
+            const dislikeCount = document.getElementById("dislike-count")
+            let number = 0
+            dislikeCount.innerText = `${number}`
+
+            const dislikeBttn = document.getElementById("dislike-button")
+            dislikeBttn.addEventListener('click', () => {
+                number += 1;
+                dislikeCount.innerText = number
+            })
+        })
     })
 }
 
-const likeBttn = document.getElementById("like-button")
-let count = 0
-likeBttn.addEventListener('click', () => {
-    count += 1;
-    const likeCount = document.getElementById("like-count")
-    likeCount.innerText = count
-})
-
-
-const dislikeBttn = document.getElementById("dislike-button")
-let number = 0
-dislikeBttn.addEventListener('click', () => {
-    number += 1;
-    const dislikeCount = document.getElementById("dislike-count")
-    dislikeCount.innerText = number
-})
 
 const form = document.getElementById('comment-form')
 
