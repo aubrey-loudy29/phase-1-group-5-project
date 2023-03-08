@@ -82,7 +82,7 @@ form.addEventListener('submit', (e) => {
     const newComment = document.createElement('li')
     let comment = document.getElementById('comment-text').value
     let username = document.getElementById("comment-username").value
-    newComment.innerText = `${username} says "${comment}"`
+    newComment.innerText = `${username} says: "${comment}"`
     commentList.append(newComment)
     
 
