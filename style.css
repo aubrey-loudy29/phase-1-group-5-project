@@ -73,6 +73,7 @@ header {
     margin: 80px 100px 10px;
     height: 600px;
     border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #left-container {
@@ -89,6 +90,7 @@ header {
     height: 450px;
     align-self: center;
     border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #left-container h2 {
@@ -212,6 +214,7 @@ header {
     margin: 10px 100px;
     height: 70px;
     border-radius: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #comment-box input {
@@ -263,6 +266,7 @@ header {
     background-color: #b9d0be;
     color: #585958;
     padding: 10px 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #comment-list {
