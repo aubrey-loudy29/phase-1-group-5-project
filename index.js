@@ -15,6 +15,14 @@ function renderDrinks(results) {
         drinkImage.src = drinks.image
         drinkBar.append(drinkImage)
 
+        drinkImage.addEventListener('mouseover', (e) => {
+            drinkImage.setAttribute('style', 'box-shadow: 0 4px 8px 0 rgba(255, 99, 71, 0.2), 0 6px 20px 0 rgba(255, 99, 71, 0.19);');
+        }, false);
+        
+        drinkImage.addEventListener('mouseout', (e) => {
+            drinkImage.setAttribute('style', 'box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);');
+        }, false);
+
         drinkImage.addEventListener('click', () => {
 
             const detailImage = document.getElementById("left-drink-image")
@@ -41,10 +49,6 @@ function renderDrinks(results) {
                 cocktailIngredientList.appendChild(detailIngr)
             }
         })
-        
-        // drinkImage.addEventListener('mouseover', () => {
-        //     drinkImage.style.boxShadow= "10px 20px 30px #b9d0be";
-        // })
 
     })
 }
