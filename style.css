@@ -63,6 +63,7 @@ header {
     width: 200px;
     height: 200px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
 }
 
 #detail-flex-box {
@@ -168,6 +169,7 @@ header {
     background: none;
     margin-top: 30px;
     border: none;
+    cursor: pointer;
 }
 
 #dislike-button {
@@ -175,6 +177,7 @@ header {
     margin-top: 30px;
     border: none;
     margin-left: 40px;
+    cursor: pointer;
 }
 
 #thumbs-up {
@@ -245,6 +248,7 @@ header {
     font-weight: 400;
     font-size: 20px;
     vertical-align: middle;
+    cursor: pointer;
 }
 
 #comment-container {
