@@ -33,7 +33,7 @@ function renderDrinks(results) {
             detailComment.innerText = drinks.comments
 
             const cocktailIngredientList = document.getElementById('ingredients-list')
-            cocktailIngredientList.innerHTML = ''
+            cocktailIngredientList.innerText = ''
             
             for(let i = 0; i < drinks.ingredients.length; i++) {  
                 const detailIngr = document.createElement("li")
