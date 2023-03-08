@@ -63,7 +63,6 @@ header {
     width: 200px;
     height: 200px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    cursor: pointer;
 }
 
 #detail-flex-box {
@@ -71,7 +70,7 @@ header {
     flex-direction: row;
     background-color: #b9d0be;
     margin: 80px 100px 10px;
-    height: 620px;
+    height: 600px;
     border-radius: 25px;
 }
 
@@ -184,7 +183,6 @@ header {
     background-color: rgb(46, 61, 46);
     height: 20px;
     width: 20px;
-    cursor: pointer;
 }
 
 #thumbs-down {
@@ -193,7 +191,6 @@ header {
     background-color: rgb(102, 47, 37);
     height: 20px;
     width: 20px;
-    cursor: pointer;
 }
 
 #thumbs-up::before {
@@ -248,7 +245,6 @@ header {
     font-weight: 400;
     font-size: 20px;
     vertical-align: middle;
-    cursor: pointer;
 }
 
 #comment-container {
@@ -281,6 +277,11 @@ header {
     margin-left: 40px;
     font-size: 30px;
 }
+
+#comment-username {
+    font-weight: bold;
+}
+
 
 #right-container h2 {
     background: none;
