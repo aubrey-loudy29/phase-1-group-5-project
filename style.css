@@ -284,6 +284,7 @@ header {
 
 #comment-username {
     font-weight: bold;
+    font-family: "Lobster";
 }
 
 
@@ -302,6 +303,13 @@ header {
 
 #ingredients-list {
     height: 195px;
+}
+
+#comment-text {
+    font-family: "Lobster";
+    font-weight: 400;
+    text-align: initial;
+    margin: auto;
 }
 
 
