@@ -291,6 +291,12 @@ header {
     list-style-position: inside;
 }
 
+#cocktail-bio-body {
+    height: 62px;
+}
 
+#ingredients-list {
+    height: 195px;
+}
 
 
