@@ -24,7 +24,10 @@ header {
     align-items: center;
     padding: 30px;
     background-color: #e19e9e;
-
+    position: sticky;
+    top: 0;
+    width: 100%;
+    opacity: 0.7;
 }
 
 .nav-links {
