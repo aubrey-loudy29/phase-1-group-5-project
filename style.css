@@ -77,6 +77,19 @@ header {
     height: 600px;
     border-radius: 25px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* background-image: url('assets/ezgif.com-video-to-gif.gif');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: relative;
+    z-index: -1; */
+}
+
+#cocktail-gif {
+    position: absolute;
+    z-index: 1;
+    border-radius: 25px;
+    height: 600px;
+    width: 1512px;
 }
 
 #left-container {

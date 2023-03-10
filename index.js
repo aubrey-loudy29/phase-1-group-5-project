@@ -25,6 +25,9 @@ function renderDrinks(results) {
 
         drinkImage.addEventListener('click', () => {
 
+            const cocktailGif = document.getElementById('cocktail-gif')
+            cocktailGif.style.display = 'none';
+
             const detailImage = document.getElementById("left-drink-image")
             detailImage.src = drinks.image
 
